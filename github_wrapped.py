@@ -285,5 +285,20 @@ if username:
 else:
     st.info("Enter a GitHub username to see your wrapped!")
 
+# Google Analytics tracking script (replace 'UA-XXXXXXXX-X' with your tracking ID)
+google_analytics_script = """
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8BB4J1Z2TW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8BB4J1Z2TW');
+</script>
+"""
+
+# Insert Google Analytics script into the app
+st.components.v1.html(google_analytics_script, height=0)
+
 st.divider()
 st.markdown("Made with ❤️ by [Arvindh](https://github.com/Arvindh99)")
