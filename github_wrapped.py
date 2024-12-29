@@ -10,6 +10,7 @@ import os
 GITHUB_API_URL = "https://api.github.com"
 load_dotenv()
 TOKEN = os.getenv("GITHUB_TOKEN")
+TOKEN = st.secrets["general"]["api_key"]
 HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
 
