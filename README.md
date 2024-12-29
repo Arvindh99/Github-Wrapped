@@ -19,7 +19,6 @@ A clean, card-style layout to display your GitHub stats with interactive element
 Hover effects and card zoom to make your stats more visually appealing.
 
 ### Demo
-You can access the demo of the app by visiting:
-Streamlit GitHub Wrapped Demo (Replace this with the deployed URL once available)
+You can access the app by visiting: [Github Wrapped](https://codewrapped2024.streamlit.app/)
 
 Note: The app is designed to work with public GitHub data. Make sure your GitHub repositories and statistics are publicly accessible for the app to retrieve the data.
